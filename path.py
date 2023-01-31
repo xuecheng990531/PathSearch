@@ -48,4 +48,5 @@ async def final(
 
 
 if __name__=='__main__':
-	uvicorn.run(app='path:app', host="114.215.85.130", port=8080, reload=True, debug=True)
+	# uvicorn.run(app='path:app', host="114.215.85.130", port=8080, reload=True, debug=True)
+	uvicorn.run(app='path:app', host="0.0.0.0", port=8080, reload=True)
